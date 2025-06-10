@@ -700,7 +700,7 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 
 		.image.main {
 			display: block;
-			margin: 1.5rem 0;
+			margin: 2.5rem 0;
 			width: 100%;
 		}
 
@@ -711,7 +711,7 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 		@media screen and (max-width: 736px) {
 
 			.image.main {
-				margin: 2rem 0;
+				margin: 1.5rem 0;
 			}
 
 		}
