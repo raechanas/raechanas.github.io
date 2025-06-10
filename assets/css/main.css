@@ -188,15 +188,18 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
-		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
-			width: -moz-max-content;
-			width: -webkit-max-content;
-			width: -ms-max-content;
-			width: max-content;
-			padding-bottom: 0.5rem;
-			margin: 0 0 2rem 0;
-		}
+h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+  border-bottom: solid 1px #ffffff;
+  width: 100%; /* penuh sesuai container */
+  max-width: 600px; /* atau sesuai lebar frame yang kamu inginkan */
+  padding-bottom: 0.5rem;
+  margin: 0 0 2rem 0;
+  word-wrap: break-word;      /* agar teks panjang dibungkus */
+  overflow-wrap: break-word;  /* cadangan untuk word-wrap */
+  white-space: normal;        /* supaya bisa wrapping */
+  box-sizing: border-box;     /* supaya padding tidak tambah lebar */
+}
+
 
 	h1 {
 		font-size: 2.25rem;
