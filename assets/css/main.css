@@ -1299,8 +1299,6 @@ input, select, textarea {
 			overflow: hidden;
 		}
 
-			#header .logo .icon:before {
-				font-size: 2rem;
 			}
 
 		#header .logo img {
