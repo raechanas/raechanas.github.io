@@ -723,7 +723,7 @@ h2.major {
 		@media screen and (max-width: 736px) {
 
 			.image.main {
-				width: 100%;
+				width: 60%;
 			}
 
 		}
@@ -731,7 +731,7 @@ h2.major {
 		@media screen and (max-width: 480px) {
 
 			.image.main {
-				width: 100%;
+				width: 60%;
 			}
 
 		}
