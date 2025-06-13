@@ -706,7 +706,7 @@ h2.major {
 			width: 100%;
 		}
 
-			.image.fit img {
+			.image.fit  {
 				width: 100%;
 			}
 
@@ -723,7 +723,7 @@ h2.major {
 		@media screen and (max-width: 736px) {
 
 			.image.main {
-				margin: 1.5rem 0;
+				width: 100%;
 			}
 
 		}
@@ -731,7 +731,7 @@ h2.major {
 		@media screen and (max-width: 480px) {
 
 			.image.main {
-				margin: 1.5rem 0;
+				width: 100%;
 			}
 
 		}
