@@ -1702,10 +1702,10 @@ h2.major {
 			opacity: 0;
 		}
 
-/* Custom Separator dengan efek memudar di ujung */
+/* Custom Separator yang lebih tebal dengan efek memudar */
 .separator {
     border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    height: 3px; /* Ketebalan ditingkatkan dari 1px ke 3px */
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
     margin: 3rem 0;
 }
