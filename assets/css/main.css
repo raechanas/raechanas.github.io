@@ -1705,7 +1705,7 @@ h2.major {
 /* Custom Separator yang lebih tebal dengan efek memudar */
 .separator {
     border: 0;
-    height: 3px; /* Ketebalan ditingkatkan dari 1px ke 3px */
+    height: 10px; /* Ketebalan ditingkatkan dari 1px ke 3px */
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
     margin: 3rem 0;
 }
